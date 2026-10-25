@@ -1,0 +1,8 @@
+.completed-cover{position:absolute;inset:0;z-index:4;background:linear-gradient(90deg,#03060570,transparent 75%)}
+.completed-cover .title{min-height:2.2em;display:block}
+.portfolio-scroll{position:absolute;top:76%;left:50%;transform:translate(-50%,-50%);display:flex;align-items:center;flex-direction:column;gap:12px;color:#d7e8dd;text-decoration:none;font:500 clamp(18px,1.7vw,25px)/1.6 Tahoma,sans-serif;padding:12px;text-align:center}
+.portfolio-scroll span{font-size:32px;line-height:1}
+.portfolio-replay{position:absolute;right:4.3%;bottom:100px;min-height:44px;padding:10px 14px;border:1px solid #b4cbb633;border-radius:8px;background:#07100bbb;color:#a3b2a8;font:14px/1.5 Tahoma,sans-serif}
+.portfolio-replay:hover{color:#effff4;border-color:#b4cbb688}
+.portfolio-reserve{height:25svh;background:#030605;scroll-margin-top:0}
+@media(max-width:600px){.portfolio-replay{bottom:80px;font-size:12px}.portfolio-scroll{width:85%;top:72%}}

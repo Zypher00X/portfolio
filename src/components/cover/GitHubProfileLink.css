@@ -1,0 +1,21 @@
+.github-profile-link {
+  position: absolute;
+  top: 68%;
+  left: 9%;
+  display: grid;
+  place-items: center;
+  width: 56px;
+  height: 56px;
+  border: 1px solid #b4d4bf40;
+  border-radius: 50%;
+  background: #06100dd9;
+  transition: background-color .18s, border-color .18s;
+}
+.github-profile-link img { display: block; width: 32px; height: 32px; object-fit: contain; }
+.github-profile-link:hover { background: #183025; border-color: #b7dfca; }
+.github-profile-link:focus-visible { outline: 2px solid #b7dfca; outline-offset: 5px; }
+@media (max-width: 600px) {
+  .github-profile-link { left: 7%; top: 61%; width: 48px; height: 48px; }
+  .github-profile-link img { width: 28px; height: 28px; }
+}
+@media (prefers-reduced-motion: reduce) { .github-profile-link { transition: none; } }

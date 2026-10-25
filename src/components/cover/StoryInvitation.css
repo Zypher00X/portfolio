@@ -1,0 +1,7 @@
+/* Scoped to the opening cover; playback and scene styles remain independent. */
+.story-invitation{position:absolute;left:50%;top:76%;transform:translate(-50%,-50%);display:flex;align-items:center;justify-content:center;gap:22px;width:max-content;max-width:88%;padding:18px 28px;border:1px solid #b7dfca80;border-radius:100px;background:rgba(3,14,10,.84);box-shadow:0 0 36px #9bd7b620,inset 0 0 24px #9bd7b609;text-align:center;transition:background .2s,border-color .2s,box-shadow .2s}
+.story-invitation__play{display:grid;place-items:center;flex-shrink:0;width:64px;height:64px;padding-left:4px;border:1px solid #c3f5d9;border-radius:50%;background:#b6e8ce;color:#10271b;font-size:24px;box-shadow:0 0 24px #abefc934}
+.story-invitation__label{font-family:Tahoma,'Leelawadee UI',sans-serif;font-size:clamp(18px,1.8vw,28px);font-weight:600;line-height:1.6;letter-spacing:0;color:#f0fff6}
+.enter:hover .story-invitation,.enter:focus-visible .story-invitation{background:rgba(14,36,25,.96);border-color:#c4f7db;box-shadow:0 0 40px #9bd7b638}
+@media(max-width:600px){.story-invitation{top:76%;gap:14px;padding:16px 20px;width:88%;border-radius:24px}.story-invitation__play{width:54px;height:54px;font-size:21px}.story-invitation__label{font-size:18px;text-align:left}}
+@media(max-height:540px) and (min-width:601px){.story-invitation{top:auto;bottom:70px;transform:translateX(-50%);padding:10px 20px}.story-invitation__play{width:44px;height:44px;font-size:18px}.story-invitation__label{font-size:18px}}

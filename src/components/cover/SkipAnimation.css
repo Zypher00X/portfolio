@@ -1,0 +1,21 @@
+.skip-animation {
+  position: absolute;
+  z-index: 7;
+  bottom: max(20px, env(safe-area-inset-bottom));
+  left: 50%;
+  transform: translateX(-50%);
+  min-height: 44px;
+  padding: 10px 20px;
+  border: 1px solid #b7dfca66;
+  border-radius: 999px;
+  background: #06100de8;
+  color: #d5e8dd;
+  font: 15px/1.5 Tahoma, sans-serif;
+  white-space: nowrap;
+}
+.skip-animation span { margin-left: 8px; }
+.skip-animation:hover { background: #142b21; border-color: #b7dfca; }
+.skip-animation:focus-visible { outline: 2px solid #b7dfca; outline-offset: 4px; }
+@media (max-width: 400px) {
+  .skip-animation { padding-inline: 14px; font-size: 14px; }
+}

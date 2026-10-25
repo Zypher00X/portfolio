@@ -1,0 +1,28 @@
+.opening-introduction { position: absolute; inset: 0; z-index: 5; pointer-events: none; }
+.personal-introduction {
+  position: absolute;
+  top: 10%;
+  left: 9%;
+  width: 32%;
+  max-width: 440px;
+  color: #e4ede7;
+  pointer-events: none;
+}
+.personal-introduction p { margin: 0; }
+.personal-introduction__greeting { font-size: 17px; line-height: 1.5; color: #bbcec1; }
+.personal-introduction__name { margin-top: 10px !important; font-size: clamp(25px, 3vw, 44px); font-weight: 500; line-height: 1.12; letter-spacing: -.035em; }
+.personal-introduction__alias { margin-top: 18px !important; font-size: 16px; line-height: 1.6; color: #d5e2d9; }
+.personal-introduction__alias span { color: #a3b8ab; margin-right: 6px; }
+@media (max-width: 640px) {
+  .personal-introduction { top: 11%; left: 7%; width: 86%; }
+  .personal-introduction__greeting { font-size: 16px; }
+  .personal-introduction__name { font-size: clamp(18px, 4.8vw, 28px); }
+  .personal-introduction__name br { display: none; }
+  .personal-introduction__name br::after { content: ' '; }
+  .personal-introduction__alias { margin-top: 10px !important; font-size: 16px; overflow-wrap: anywhere; }
+}
+@media (max-height: 560px) and (min-width: 641px) {
+  .personal-introduction { top: 6%; }
+  .personal-introduction__name { font-size: 24px; }
+  .personal-introduction__alias { margin-top: 8px !important; }
+}
