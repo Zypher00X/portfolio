@@ -1,0 +1,78 @@
+[
+  {
+    "file": "pytest.svg",
+    "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/pytest.svg",
+    "note": "Simple Icons silhouette; tinted for dark background"
+  },
+  {
+    "file": "k6.svg",
+    "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/k6.svg",
+    "note": "Simple Icons silhouette; tinted for dark background"
+  },
+  {
+    "file": "kalilinux.svg",
+    "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/kalilinux.svg",
+    "note": "Simple Icons silhouette; tinted for dark background"
+  },
+  {
+    "file": "numpy.svg",
+    "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/numpy.svg",
+    "note": "Simple Icons silhouette; tinted for dark background"
+  },
+  {
+    "file": "onnx.svg",
+    "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/onnx.svg",
+    "note": "Simple Icons silhouette; tinted for dark background"
+  },
+  {
+    "file": "opencv.svg",
+    "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/opencv.svg",
+    "note": "Simple Icons silhouette; tinted for dark background"
+  },
+  {
+    "file": "pytorch.svg",
+    "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/pytorch.svg",
+    "note": "Simple Icons silhouette; tinted for dark background"
+  },
+  {
+    "file": "ruff.svg",
+    "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/ruff.svg",
+    "note": "Simple Icons silhouette; tinted for dark background"
+  },
+  {
+    "file": "trivy.svg",
+    "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/trivy.svg",
+    "note": "Simple Icons silhouette; tinted for dark background"
+  },
+  {
+    "file": "zap.svg",
+    "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/zap.svg",
+    "note": "Simple Icons silhouette; tinted for dark background"
+  },
+  {
+    "file": "deepeval.svg",
+    "source": "https://raw.githubusercontent.com/confident-ai/deepeval/main/docs/app/icon.svg",
+    "note": "Official project repository"
+  },
+  {
+    "file": "bandit.png",
+    "source": "https://raw.githubusercontent.com/PyCQA/bandit/main/logo/logomark.png",
+    "note": "Official project repository"
+  },
+  {
+    "file": "onnxruntime.png",
+    "source": "https://raw.githubusercontent.com/microsoft/onnxruntime/main/ORT_icon_for_light_bg.png",
+    "note": "Official project repository"
+  },
+  {
+    "file": "torchvision.svg",
+    "source": "https://raw.githubusercontent.com/pytorch/vision/main/docs/source/_static/img/pytorch-logo-flame.svg",
+    "note": "Official project repository"
+  },
+  {
+    "file": "insightface.png",
+    "source": "https://raw.githubusercontent.com/deepinsight/insightface/master/python-package/insightface/gui/assets/app_icon.png",
+    "note": "Official project repository"
+  }
+]
+

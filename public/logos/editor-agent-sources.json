@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Visual Studio",
+    "file": "visual-studio.svg",
+    "source": "https://svgl.app/library/visual-studio.svg"
+  },
+  {
+    "name": "Visual Studio Code",
+    "file": "vscode.svg",
+    "source": "https://svgl.app/library/vscode.svg"
+  },
+  {
+    "name": "Codex",
+    "file": "codex.svg",
+    "source": "https://svgl.app/library/codex_dark.svg"
+  },
+  {
+    "name": "GitHub Copilot",
+    "file": "github-copilot.svg",
+    "source": "https://svgl.app/library/copilot_dark.svg"
+  },
+  {
+    "name": "GitHub Codespaces",
+    "file": "codespaces.svg",
+    "source": "https://raw.githubusercontent.com/primer/octicons/main/icons/codespaces-24.svg"
+  }
+]
